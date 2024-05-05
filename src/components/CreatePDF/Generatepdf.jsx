@@ -80,7 +80,7 @@ const Generatepdf = () => {
         placeholder="Enter Patient ID"
       />
       <button className="button" onClick={handleGeneratePdf}>
-        Generate PDF
+        Submit
       </button>
       <div className="">
         <form className="form-submit">

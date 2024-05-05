@@ -59,7 +59,7 @@ const GetAll = () => {
                 {" "}
                 <a href={`https://${item.cid}.ipfs.w3s.link`}>Open</a>
               </button>
-              <p>{item.created.slice(0, 10)}</p>
+              {/* <p>{item.created.slice(0, 10)}</p> */}
             </div>
           );
         })}
